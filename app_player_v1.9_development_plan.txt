@@ -1,0 +1,33 @@
+帅哥播放器 v1.9开发计划
+================================
+app配置信息
+appid: 1106011282
+bundleID: com.xsism.player
+main storyboard: FileListCtrl
+
+下面这个码,需要QQ上问beyond,因为加了密
+gdt_tc_1106657736_kk_41f641c8
+================================
+1. 去掉 <位置标记>, 移除info.plist中定位权限申请
+2. 去掉 <帅哥速记>, 精简不必要的功能
+3. 去掉 <意见反馈>, 精简不必要的功能
+4. 去掉 <帅哥翻译>, 精简不必要的功能
+5. 去掉 运行时长30分钟限制
+6. 去掉 wifi传输限制
+7. 去掉 录像时长限制
+8. 去掉 录音时长限制
+9. 去掉 帅哥动漫
+10. 去掉app演示视频,包括itunesconnect上的
+11. 去掉 app手册中的介绍和联系方式
+
+9. 新增推送功能
+10. 新增收到推送后的跳转功能
+================================
+附git使用命令: 
+git init 
+git status 
+git add --all
+git status 
+git commit -m 'appstore project player init'
+git push https://github.com/ixixii/iOS_appstore_player.git master 
+================================
